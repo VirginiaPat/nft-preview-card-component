@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-950: #0d192c;
+  --color-blue-900: #15263f;
+  --color-blue-800: #2e405a;
+  --color-blue-500: #8bacd9;
+  --color-cyan-400: #00fff8;
+
+  --font-outfit: "Outfit", sans-serif;
+
+  --text-22px: 1.375rem;
+
+  /* Breakpoints */
+  --breakpoint-375px:       
+;
+}
+
+/* Typography */
+@utility text-preset-1 {
+  @apply font-outfit font-semibold text-22px leading-[125%] tracking-normal;
+}
+
+@utility text-preset-2 {
+  @apply font-outfit font-light text-lg leading-[145%] tracking-normal;
+}
+
+@utility text-preset-3-semibold {
+  @apply font-outfit font-semibold text-base leading-[125%] tracking-normal;
+}
+
+@utility text-preset-3-regular {
+  @apply font-outfit font-normal text-base leading-[125%] tracking-normal;
+}
