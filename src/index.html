@@ -23,16 +23,16 @@
   </head>
   <body class="flex flex-col justify-center items-center bg-blue-950">
     <header><h1 class="sr-only">NFT preview card component</h1></header>
-    <main>
+    <main class="flex justify-center">
       <!-- Main container -->
       <div
-        class="flex justify-center mt-8.75 py-6 w-87.5 rounded-2xl bg-blue-900 md:mt-38"
+        class="flex justify-center mt-8.75 p-6 w-[calc(100%-2rem)] max-w-87.5 rounded-2xl bg-blue-900 md:mt-38"
       >
         <!-- Image and texts container -->
-        <div class="flex flex-col w-75.5 gap-6">
+        <div class="flex flex-col w-full gap-6">
           <a href="#" class="group relative block focus:outline-none">
             <img
-              class="rounded-lg"
+              class="card-img rounded-lg"
               src="../images/image-equilibrium.jpg"
               alt="Equilibrium"
             />
@@ -58,15 +58,11 @@
           </p>
           <div class="flex justify-between">
             <div class="flex items-center gap-2">
-              <img
-                class="h-4.5"
-                src="../images/icon-ethereum.svg"
-                alt="ethereum"
-              />
+              <img class="h-4.5" src="../images/icon-ethereum.svg" alt="" />
               <p class="text-preset-3-semibold text-cyan-400">0.041 ETH</p>
             </div>
             <div class="flex items-center gap-2">
-              <img class="h-4" src="../images/icon-clock.svg" alt="clock" />
+              <img class="h-4" src="../images/icon-clock.svg" alt="" />
               <p class="text-preset-3-regular text-blue-500">3 days left</p>
             </div>
           </div>
@@ -75,7 +71,7 @@
             <img
               class="w-8.25 border border-white rounded-full"
               src="../images/image-avatar.png"
-              alt="Creator"
+              alt=""
             />
             <div class="flex gap-2">
               <p class="text-preset-3-regular text-blue-500">Creation of</p>
